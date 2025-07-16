@@ -1,6 +1,6 @@
 const express = require('express');  
 const router = express.Router(); 
-const analyzeIdea = require('../services/groqServices.js'); 
+const analyzeIdea = require('../services/groqServices'); 
 
 router.post('/', async (req, res) => {
     const { idea } = req.body; 
