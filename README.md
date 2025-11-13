@@ -3,11 +3,14 @@
 StartupSnap is an AI-driven platform that helps aspiring founders instantly evaluate their startup ideas. It analyzes your concept using an advanced LLM hosted on Groq, providing real-time insights into problem–solution fit, target market, business model, technical feasibility, and competition.
 
 🧠 Overview
+
 Coming up with a startup idea is easy. Knowing if it’s viable isn’t.
 StartupSnap bridges that gap by leveraging Groq’s ultra-fast inference API with Llama-3.1-8B-Instant to evaluate raw business ideas and give structured feedback in seconds.
+
 Users simply describe their startup concept, and StartupSnap breaks it down across key dimensions that matter to investors and founders alike.
 
 ✨ Features
+
 ✅ AI-Based Validation – Get instant analysis on feasibility, market fit, and scalability.
 ✅ Smart Categorization – Automatically identifies your target audience and industry.
 ✅ Competitive Landscape Scan – Highlights potential competitors or existing solutions.
@@ -16,8 +19,12 @@ Users simply describe their startup concept, and StartupSnap breaks it down acro
 ✅ Lightning-Fast API – Powered by Node.js backend integrated with Groq’s LLM.
 
 🧩 Tech Stack
-LayerTechnologyFrontendReact, Bootstrap, JavaScriptBackendNode.js, ExpressAI EngineGroq Llama-3.1-8B-Instant (via Groq API)StylingCSS / BootstrapVersion ControlGit + GitHub
-
+Layer	Technology
+Frontend	React, Bootstrap, JavaScript
+Backend	Node.js, Express
+AI Engine	Groq Llama-3.1-8B-Instant (via Groq API)
+Styling	CSS / Bootstrap
+Version Control	Git + GitHub
 ⚙️ System Architecture
 User Input (Startup Idea)
         ↓
@@ -31,39 +38,25 @@ Structured Evaluation Response
         ↓
 Frontend Visualization
 
-
 💡 How It Works
-
 
 The user enters a raw startup idea into the text box.
 
-
 The backend formats a structured prompt for Groq’s LLM.
-
 
 Groq API processes it using Llama-3.1-8B-Instant and returns a detailed JSON/text response.
 
-
 The React UI parses and presents results as separate sections:
-
 
 Problem / Solution Fit
 
-
 Target Audience
-
 
 Business Model
 
-
 Competitor Landscape
 
-
 Technical Feasibility
-
-
-
-
 
 🧰 Installation & Setup
 # Clone the repository
@@ -81,33 +74,19 @@ npm run dev
 
 
 Make sure to add your Groq API key to a .env file:
+
 GROQ_API_KEY=your_api_key_here
 
-
-
 🎯 Future Enhancements
-
-
-🧾 Save analysis reports as PDF for later reference
-
-
-📊 Add confidence scores and validation metrics
-
-
-🌍 Support for multiple languages
-
-
-🔐 User authentication & history tracking
-
-
-📱 Deploy a PWA (mobile-friendly) version
-
-
+Save analysis reports as PDF for later reference
+Add confidence scores and validation metrics
+Support for multiple languages
+User authentication & history tracking
+Deploy a PWA (mobile-friendly) version
 
 🧑‍💻 Author
 Amogh Bhat Nagri
-Engineering Student | AI / ML & Backend Enthusiast
-LinkedIn • GitHub
 
 📜 License
-This project is licensed under the MIT License – feel free to fork, modify, and build upon it.  
+
+This project is licensed under the MIT License – feel free to fork, modify, and build upon it.
