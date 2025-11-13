@@ -110,6 +110,3 @@ LinkedIn • GitHub
 
 📜 License
 This project is licensed under the MIT License – feel free to fork, modify, and build upon it.
-
-Would you like me to tailor this README slightly for recruiter appeal (i.e., emphasize your personal contribution and make it sound team-project ready for an interview)?
-That version would sound more like: “I led the backend integration and prompt engineering…” etc.
